@@ -9,12 +9,9 @@ FOLDER = "D:/wallpapers/" # folder path
 
 # function to check if the image has previously been used
 def check_unique(fileSearch):
-    print(fileSearch)
     unique = True
     for root, dir, files in os.walk(FOLDER): # search through existing files in the wallpaper folder
-        print(files)
         if(fileSearch in files):
-            print("hello")
             unique = False # if the file was found in the wallpaper folder already, it is not unique
     return unique
 
@@ -27,7 +24,6 @@ posts = jsonData["data"]["children"] # access children (the reddit posts)
 
 unique = False
 for i in range(len(posts)): # search through posts received
-    print("hey")
     imgurl = posts[i]["data"]["url"] # get the url of the current image
     imgname = os.path.basename(imgurl) # extract the image name from the url
     unique = check_unique(imgname) # check if this image was already used
