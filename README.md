@@ -36,9 +36,9 @@ When run, this script will attempt to permanently delete any files in your recyc
 
 ## wallpaper.py
 
-When run, this script will download and change your desktop background to the current hottest wallpaper on the r/wallpaper subreddit on Reddit. It will also ensure you haven't already downloaded the wallpaper and if so, will use the first unique wallpaper it can find. You will need to change the value of the constant FOLDER to your desired path to store your wallpapers. I personally like to have this run **daily** at midnight.
+When run, this script will download and change your desktop background to the current hottest wallpaper on the r/wallpaper subreddit on Reddit. It will also ensure you haven't already downloaded the wallpaper and if so, will use the first unique wallpaper it can find. You will need to change the value of the constant FOLDER to your desired path to store your wallpapers, but PLEASE ensure that this directory will include ONLY wallpapers (no subdirectories, no non-image file types). I personally like to have this run **daily** at midnight.
 
-<u>Required packages:</u>  os, requests, json, ctypes *(please install with 'pip install' if not installed already)*
+<u>Required packages:</u>  os, requests, json, ctypes, filetype *(please install with 'pip install' if not installed already)*
 
 
 
