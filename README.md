@@ -22,7 +22,7 @@ A collection of Python automation scripts to assist with various tasks on your c
 
 When run, this script will delete cache and temp files from your system. I recommend running this **monthly** to free up space and improve performance. Good news is, no customization is required for this script! It is ready to run as is!
 
-<u>Required packages:</u>  os, shutil *(please install with 'pip install' if not installed already)*
+<u>Required packages:</u>  os, shutil *(these are already included in python's standard library)*
 
 
 
@@ -30,7 +30,7 @@ When run, this script will delete cache and temp files from your system. I recom
 
 When run, this script will attempt to permanently delete any files in your recycling bin that were deleted 30 or more days ago. You can run this script as often as you'd like, I personally do it **daily**. Good news is, no customization is required for this script! It is ready to run as is! However, you may have to provide confirmation for certain files while the script is running. Certain types of files, such as shortcuts, will need to be deleted manually. 
 
-<u>Required packages:</u>  os, winshell, datetime, shutil *(please install with 'pip install' if not installed already)*
+<u>Required packages:</u>  os, winshell, datetime, shutil *(please install winshell and datetime with 'pip install' if not installed already, os and shutil are already included in python's standard library)*
 
 
 
@@ -38,7 +38,7 @@ When run, this script will attempt to permanently delete any files in your recyc
 
 When run, this script will download and change your desktop background to the current hottest wallpaper on the r/wallpaper subreddit on Reddit. It will also ensure you haven't already downloaded the wallpaper and if so, will use the first unique wallpaper it can find. You will need to change the value of the constant FOLDER to your desired path to store your wallpapers, but PLEASE ensure that this directory will include ONLY wallpapers (no subdirectories, no non-image file types). I personally like to have this run **daily** at midnight.
 
-<u>Required packages:</u>  os, requests, json, ctypes, filetype *(please install with 'pip install' if not installed already)*
+<u>Required packages:</u>  os, requests, json, ctypes, filetype *(please install requests and filetype with 'pip install' if not installed already, os, json, and ctypes are already included in python's standard library)*
 
 
 
