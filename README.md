@@ -1,4 +1,4 @@
-# Housekeeping
+# Desktop Dynamo
 
 A collection of Python automation scripts to assist with various tasks on your computer such as file organization, tidying, and spicing things up with a wallpaper change. Meant to be used in conjunction with Windows Task Scheduler.
 
